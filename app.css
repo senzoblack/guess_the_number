@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.text-info,
+label,
+button,
+h2{
+    font-family: 'Hanalei Fill', cursive;
+}
+.text-info {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.card {
+    max-width: 540px;
+    margin: 0 auto;
+}

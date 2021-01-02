@@ -1,3 +1,4 @@
+angular.module('app',[]).controller('GuessTheNumberController', GuessTheNumberController);
 function GuessTheNumberController($scope){
     $scope.verifyGuess = function() {
         $scope.deviation = $scope.original - $scope.guess;
